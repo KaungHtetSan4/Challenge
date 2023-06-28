@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+section {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+section .rec {
+  width: 30%;
+  display: flex;
+  background-color: rgb(255, 255, 255);
+  border-radius: 20px;
+  height: 50%;
+}
+section .rec .left {
+  width: 50%;
+  height: 100%;
+  overflow: hidden;
+}
+section .rec .left img {
+  width: 100%;
+  height: 100%;
+  max-width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+section .rec .right {
+  width: 50%;
+  padding: 20px;
+}
+section .rec .right h6 {
+  font-family: "Poppins", sans-serif;
+  padding: 10px;
+  font-weight: 100;
+  letter-spacing: 1px;
+}
+section .rec .right h1 {
+  font-family: "Bebas Neue", sans-serif;
+  letter-spacing: 1.5px;
+  font-size: 45px;
+  padding: 10px;
+}
+section .rec .right p {
+  font-family: "Poppins", sans-serif;
+  font-weight: 100;
+  color: rgb(31, 31, 31);
+  padding-left: 10px;
+  font-size: 10px;
+}
+section .rec .right h2 {
+  color: green;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+  padding: 10px;
+  font-size: 35px;
+}
+section .rec .right del {
+  color: black;
+  font-weight: 100;
+  font-size: 10px;
+  padding: 10px;
+}
+section .rec .right button {
+  font-size: 15px;
+  font-family: "Poppins", sans-serif;
+  padding: 2px;
+  margin-left: 10px;
+  width: 90%;
+  height: 10%;
+  background-color: green;
+  color: aliceblue;
+}/*# sourceMappingURL=challenge.css.map */
